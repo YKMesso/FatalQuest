@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
+    public GameObject player;
 
     private void OnCollisionEnter (Collision collision)
     {
